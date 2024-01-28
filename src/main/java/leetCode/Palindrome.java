@@ -1,3 +1,5 @@
+package leetCode;
+
 import java.sql.SQLOutput;
 
 public class Palindrome {
@@ -6,7 +8,6 @@ public class Palindrome {
         String a = String.valueOf(x);
 
         StringBuilder sb = new StringBuilder(a);
-
         String b = sb.reverse().toString();
 
         for (int i = 0; i <a.length() ; i++) {
